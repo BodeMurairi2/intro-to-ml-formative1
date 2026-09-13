@@ -1,0 +1,17 @@
+{
+  "os": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.13.5",
+  "startedAt": "2026-09-13T15:19:51.243747Z",
+  "program": "/home/bode-murairi/Documents/programming/ml/assignments/intro-to-ml-formative1/assignment.ipynb",
+  "codePath": "/home/bode-murairi/Documents/programming/ml/assignments/intro-to-ml-formative1/assignment.ipynb",
+  "codePathLocal": "assignment.ipynb",
+  "git": {
+    "remote": "https://github.com/BodeMurairi2/intro-to-ml-formative1.git",
+    "commit": "c6e65e92d8fdf3d6493a6c36e5fd37e7059c36c9"
+  },
+  "email": "b.murairi@alustudent.com",
+  "root": "/home/bode-murairi/Documents/programming/ml/assignments/intro-to-ml-formative1",
+  "host": "bode-murairi-HP-ProBook-450-15-6-inch-G10-Notebook-PC",
+  "executable": "/home/bode-murairi/anaconda3/bin/python",
+  "writerId": "rux07zdfn4bmtukaxbf6zxxm3gutbyuc"
+}
