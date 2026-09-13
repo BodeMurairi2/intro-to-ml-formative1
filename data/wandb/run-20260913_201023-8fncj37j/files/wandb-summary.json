@@ -1,0 +1,1 @@
+{"_runtime":0,"_step":0,"val_roc_auc":0.7864966624643811,"confusion_matrix":{"height":400,"_type":"image-file","sha256":"8d8ce39b174099f4c4cf75c01eaf2ae64edce7ef1539251f3e65abe1ab1479c0","size":17668,"path":"media/images/confusion_matrix_0_8d8ce39b174099f4c4cf.png","format":"png","width":400},"_timestamp":1.7893230249763644e+09,"_wandb":{"runtime":0}}

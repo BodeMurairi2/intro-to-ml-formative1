@@ -1,0 +1,18 @@
+{"time":"2026-09-13T20:20:12.149582526+02:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-09-13T20:20:12.149719396+02:00","level":"INFO","msg":"stream: starting","core version":"0.30.0"}
+{"time":"2026-09-13T20:20:12.159650087+02:00","level":"INFO","msg":"stream: created new stream","id":"814abzoa"}
+{"time":"2026-09-13T20:20:12.159812948+02:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-09-13T20:20:12.159995371+02:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-09-13T20:20:12.16008095+02:00","level":"INFO","msg":"writer: started","stream_id":"814abzoa"}
+{"time":"2026-09-13T20:20:12.160122397+02:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-09-13T20:20:23.661854232+02:00","level":"INFO","msg":"filestream: sending request","total_files":1,"events_offset":0,"events_lines":1}
+{"time":"2026-09-13T20:20:33.388686202+02:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-09-13T20:20:33.922694946+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-09-13T20:20:33.922927233+02:00","level":"INFO","msg":"filestream: sending request","total_files":2,"history_offset":0,"history_lines":1,"uploaded_len":5,"complete":true,"exit_code":0}
+{"time":"2026-09-13T20:20:34.349943728+02:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-09-13T20:20:34.35515805+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-09-13T20:20:34.369808788+02:00","level":"INFO","msg":"stream: finishing up"}
+{"time":"2026-09-13T20:20:34.369853461+02:00","level":"INFO","msg":"handler: closed"}
+{"time":"2026-09-13T20:20:34.369962483+02:00","level":"INFO","msg":"sender: closed"}
+{"time":"2026-09-13T20:20:34.369987238+02:00","level":"INFO","msg":"stream: all finished"}
+{"time":"2026-09-13T20:20:36.37083389+02:00","level":"ERROR","msg":"stream: failed to shut down analytics","error":"shutdown errors: [failed to upload metrics: context deadline exceeded: retry-able request failure: Post \"https://api.wandb.ai/sdk/otel/v1/metrics\": context deadline exceeded context deadline exceeded]"}

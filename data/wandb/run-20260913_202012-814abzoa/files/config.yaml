@@ -1,0 +1,48 @@
+_wandb:
+    value:
+        cli_version: 0.30.0
+        e:
+            lrza5gziha8oitzakarr318xsizy2djq:
+                codePath: /home/bode-murairi/Documents/programming/ml/assignments/intro-to-ml-formative1/assignment.ipynb
+                codePathLocal: assignment.ipynb
+                executable: /home/bode-murairi/anaconda3/bin/python
+                git:
+                    commit: 595ec7fc61ac62feb71f96455b6886d46149059e
+                    remote: https://github.com/BodeMurairi2/intro-to-ml-formative1.git
+                host: bode-murairi-HP-ProBook-450-15-6-inch-G10-Notebook-PC
+                os: Linux-7.0.0-31-generic-x86_64-with-glibc2.39
+                program: /home/bode-murairi/Documents/programming/ml/assignments/intro-to-ml-formative1/assignment.ipynb
+                python: CPython 3.13.5
+                root: ./data
+                startedAt: "2026-09-13T18:20:12.133353Z"
+                writerId: lrza5gziha8oitzakarr318xsizy2djq
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.13.5
+            "5": 0.30.0
+            "8":
+                - 1
+                - 2
+            "10":
+                - 20
+            "12": 0.30.0
+            "13": linux-x86_64
+cat_impute:
+    value: most_frequent
+features:
+    value: pairwise_interactions
+model:
+    value: LogisticRegression
+num_impute:
+    value: median
