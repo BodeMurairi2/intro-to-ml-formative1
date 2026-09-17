@@ -1,0 +1,7 @@
+2026-09-17 20:28:32,720 INFO    MainThread:14026 [wandb_init.py:setup_run_log_directory():739] Logging user logs to data/wandb/run-20260917_202832-b4f9gv3z/logs/debug.log
+2026-09-17 20:28:32,720 INFO    MainThread:14026 [wandb_init.py:setup_run_log_directory():740] Logging internal logs to data/wandb/run-20260917_202832-b4f9gv3z/logs/debug-internal.log
+2026-09-17 20:28:32,720 INFO    MainThread:14026 [wandb_init.py:init():783] calling init triggers
+2026-09-17 20:28:32,720 INFO    MainThread:14026 [wandb_init.py:init():788] wandb.init called with sweep_config: {}
+config: {'model': 'XGBClassifier', 'num_impute': 'median', 'dropped_duplicates': False, 'n_estimators': 1000, 'learning_rate': 0.03, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.1, 'reg_lambda': 2.0, '_wandb': {}}
+2026-09-17 20:28:32,720 INFO    MainThread:14026 [wandb_init.py:init():831] starting backend
+2026-09-17 20:28:32,720 INFO    MainThread:14026 [wandb_init.py:init():846] sending inform_init request

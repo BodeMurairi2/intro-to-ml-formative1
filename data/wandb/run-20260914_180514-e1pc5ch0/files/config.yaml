@@ -1,0 +1,45 @@
+_wandb:
+    value:
+        cli_version: 0.30.0
+        e:
+            3mr505poqggwt9fsojne6sz6ez5x71tx:
+                codePath: /home/bode-murairi/Documents/programming/ml/assignments/intro-to-ml-formative1/assignment.ipynb
+                codePathLocal: assignment.ipynb
+                email: b.murairi@alustudent.com
+                executable: /home/bode-murairi/anaconda3/bin/python
+                git:
+                    commit: 3ae9870120c0982db0e2d9c136b1cd53a50223de
+                    remote: https://github.com/BodeMurairi2/intro-to-ml-formative1.git
+                host: bode-murairi-HP-ProBook-450-15-6-inch-G10-Notebook-PC
+                os: Linux-7.0.0-31-generic-x86_64-with-glibc2.39
+                program: /home/bode-murairi/Documents/programming/ml/assignments/intro-to-ml-formative1/assignment.ipynb
+                python: CPython 3.13.5
+                root: ./data
+                startedAt: "2026-09-14T16:05:14.144609Z"
+                writerId: 3mr505poqggwt9fsojne6sz6ez5x71tx
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.13.5
+            "5": 0.30.0
+            "8":
+                - 1
+                - 2
+            "10":
+                - 20
+            "12": 0.30.0
+            "13": linux-x86_64
+model:
+    value: RandomForest
+num_impute:
+    value: knn_k5

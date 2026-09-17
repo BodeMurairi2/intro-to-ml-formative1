@@ -1,0 +1,7 @@
+{
+  "run_name": "baseline-logreg-knn-impute",
+  "model": "LogisticRegression",
+  "num_impute": "knn_k5",
+  "val_roc_auc": 0.6571,
+  "cv_roc_auc_mean": 0.6517
+}

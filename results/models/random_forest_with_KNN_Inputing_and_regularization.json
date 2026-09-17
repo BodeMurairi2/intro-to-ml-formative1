@@ -1,0 +1,7 @@
+{
+  "run_name": "random_forest_with_KNN_Inputing_and_regularization",
+  "model": "RandomForest",
+  "num_impute": "knn_k5",
+  "val_roc_auc": 0.7919,
+  "cv_roc_auc_mean": 0.7889
+}

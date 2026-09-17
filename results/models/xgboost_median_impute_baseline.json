@@ -1,0 +1,10 @@
+{
+  "run_name": "xgboost_median_impute_baseline",
+  "model": "XGBClassifier",
+  "num_impute": "median",
+  "n_estimators": 500,
+  "learning_rate": 0.05,
+  "max_depth": 4,
+  "val_roc_auc": 0.7981,
+  "cv_roc_auc_mean": 0.7979
+}

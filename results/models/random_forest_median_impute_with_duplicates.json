@@ -1,0 +1,8 @@
+{
+  "run_name": "random_forest_median_impute_with_duplicates",
+  "model": "RandomForestClassifier",
+  "num_impute": "median",
+  "dropped_duplicates": false,
+  "val_roc_auc": 0.7982,
+  "cv_roc_auc_mean": 0.7962
+}

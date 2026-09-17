@@ -1,0 +1,14 @@
+{
+  "run_name": "xgboost_median_impute_v2_tuned_with_duplicates",
+  "model": "XGBClassifier",
+  "num_impute": "median",
+  "dropped_duplicates": false,
+  "n_estimators": 1000,
+  "learning_rate": 0.03,
+  "max_depth": 5,
+  "min_child_weight": 3,
+  "gamma": 0.1,
+  "reg_lambda": 2.0,
+  "val_roc_auc": 0.8277,
+  "cv_roc_auc_mean": 0.8259
+}

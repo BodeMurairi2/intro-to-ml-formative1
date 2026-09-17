@@ -1,0 +1,9 @@
+{
+  "run_name": "exp1-median-mostfrequent-impute-logistic regression",
+  "model": "LogisticRegression",
+  "num_impute": "median",
+  "cat_impute": "most_frequent",
+  "dropped_duplicates": true,
+  "val_roc_auc": 0.6568,
+  "cv_roc_auc_mean": 0.652
+}
