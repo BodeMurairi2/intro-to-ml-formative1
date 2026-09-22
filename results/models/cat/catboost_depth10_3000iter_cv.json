@@ -1,0 +1,21 @@
+{
+  "run_name": "catboost_depth10_3000iter_cv",
+  "model": "CatBoostClassifier",
+  "iterations": 3000,
+  "learning_rate": 0.03,
+  "depth": 10,
+  "l2_leaf_reg": 3,
+  "random_seed": 42,
+  "verbose": 0,
+  "eval_metric": "AUC",
+  "scale_pos_weight": 2.8155802861685215,
+  "cat_features": [
+    "cat_region",
+    "cat_channel",
+    "cat_tier"
+  ],
+  "num_impute": "none (CatBoost handles NaN)",
+  "dropped_duplicates": false,
+  "val_roc_auc": 0.8617,
+  "cv_roc_auc_mean": 0.8617
+}

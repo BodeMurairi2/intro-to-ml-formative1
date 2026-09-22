@@ -1,0 +1,29 @@
+2026-09-22 17:04:18,742 INFO    MainThread:11840 [wandb_setup.py:_flush():81] Current SDK version is 0.30.0
+2026-09-22 17:04:18,742 INFO    MainThread:11840 [wandb_setup.py:_flush():81] Configure stats pid to 11840
+2026-09-22 17:04:18,742 INFO    MainThread:11840 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-09-22 17:04:18,743 INFO    MainThread:11840 [wandb_init.py:setup_run_log_directory():739] Logging user logs to data/wandb/run-20260922_170418-bgsbqu4a/logs/debug.log
+2026-09-22 17:04:18,743 INFO    MainThread:11840 [wandb_init.py:setup_run_log_directory():740] Logging internal logs to data/wandb/run-20260922_170418-bgsbqu4a/logs/debug-internal.log
+2026-09-22 17:04:18,743 INFO    MainThread:11840 [wandb_init.py:monkeypatch_ipython():658] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7a952f1e4ec0>
+2026-09-22 17:04:18,743 INFO    MainThread:11840 [wandb_init.py:init():783] calling init triggers
+2026-09-22 17:04:18,743 INFO    MainThread:11840 [wandb_init.py:init():788] wandb.init called with sweep_config: {}
+config: {'model': 'LogisticRegression', 'C': 1.0, 'penalty': 'elasticnet', 'l1_ratio': 0.5, 'solver': 'saga', 'max_iter': 2000, 'num_impute': 'median', 'cat_impute': 'most_frequent', 'dropped_duplicates': True, '_wandb': {}}
+2026-09-22 17:04:18,743 INFO    MainThread:11840 [wandb_init.py:init():831] starting backend
+2026-09-22 17:04:18,743 INFO    MainThread:11840 [wandb_init.py:init():846] sending inform_init request
+2026-09-22 17:04:18,768 INFO    MainThread:11840 [wandb_init.py:init():851] backend started and connected
+2026-09-22 17:04:18,813 INFO    MainThread:11840 [wandb_run.py:_label_probe_notebook():1213] probe notebook
+2026-09-22 17:04:18,824 INFO    MainThread:11840 [wandb_init.py:init():921] updated telemetry
+2026-09-22 17:04:18,847 INFO    MainThread:11840 [wandb_init.py:init():944] communicating run to backend with 90.0 second timeout
+2026-09-22 17:04:26,154 INFO    MainThread:11840 [wandb_init.py:init():981] starting run threads in backend
+2026-09-22 17:04:26,757 INFO    MainThread:11840 [wandb_run.py:_console_start():2531] atexit reg
+2026-09-22 17:04:26,757 INFO    MainThread:11840 [wandb_run.py:_redirect():2381] redirect: wrap_raw
+2026-09-22 17:04:26,757 INFO    MainThread:11840 [wandb_run.py:_redirect():2450] Wrapping output streams.
+2026-09-22 17:04:26,757 INFO    MainThread:11840 [wandb_run.py:_redirect():2473] Redirects installed.
+2026-09-22 17:04:26,762 INFO    MainThread:11840 [wandb_init.py:init():1019] run started, returning control to user process
+2026-09-22 17:04:26,875 INFO    MainThread:11840 [wandb_run.py:_finish():2303] finishing run b-murairi-african-leadership-university/formative1-part2-BodeMurairi/bgsbqu4a
+2026-09-22 17:04:26,999 INFO    MainThread:11840 [jupyter.py:save_history():441] not saving jupyter history
+2026-09-22 17:04:26,999 INFO    MainThread:11840 [jupyter.py:save_ipynb():368] not saving jupyter notebook
+2026-09-22 17:04:26,999 INFO    MainThread:11840 [wandb_init.py:_jupyter_teardown():637] cleaning up jupyter logic
+2026-09-22 17:04:26,999 INFO    MainThread:11840 [wandb_run.py:_atexit_cleanup():2498] got exitcode: 0
+2026-09-22 17:04:26,999 INFO    MainThread:11840 [wandb_run.py:_restore():2480] restore
+2026-09-22 17:04:26,999 INFO    MainThread:11840 [wandb_run.py:_restore():2486] restore done
+2026-09-22 17:04:29,773 INFO    MainThread:11840 [wandb_run.py:_footer_sync_info():3901] logging synced files

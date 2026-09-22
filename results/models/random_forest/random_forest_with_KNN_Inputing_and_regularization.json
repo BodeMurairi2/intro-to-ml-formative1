@@ -1,0 +1,14 @@
+{
+  "run_name": "random_forest_with_KNN_Inputing_and_regularization",
+  "model": "RandomForestClassifier",
+  "n_estimators": 500,
+  "max_depth": null,
+  "criterion": "entropy",
+  "min_samples_split": 10,
+  "min_samples_leaf": 5,
+  "max_features": "sqrt",
+  "class_weight": "balanced_subsample",
+  "num_impute": "knn_k5",
+  "val_roc_auc": 0.7919,
+  "cv_roc_auc_mean": 0.7889
+}

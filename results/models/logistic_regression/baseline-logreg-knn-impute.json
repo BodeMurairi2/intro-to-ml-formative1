@@ -1,0 +1,12 @@
+{
+  "run_name": "baseline-logreg-knn-impute",
+  "model": "LogisticRegression",
+  "C": 1.0,
+  "penalty": "elasticnet",
+  "l1_ratio": 0.5,
+  "solver": "saga",
+  "max_iter": 2000,
+  "num_impute": "knn_k5",
+  "val_roc_auc": 0.6571,
+  "cv_roc_auc_mean": 0.6517
+}

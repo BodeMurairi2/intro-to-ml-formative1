@@ -1,0 +1,15 @@
+{
+  "run_name": "polynomial_features_logistic_regression_experiment_with_Degree_2_with_different_hyperparameters",
+  "model": "LogisticRegression",
+  "C": 1.0,
+  "penalty": "elasticnet",
+  "l1_ratio": 0.5,
+  "solver": "saga",
+  "max_iter": 2000,
+  "class_weight": "balanced",
+  "features": "poly_degree2_with_squares",
+  "num_impute": "median",
+  "cat_impute": "most_frequent",
+  "val_roc_auc": 0.7852,
+  "cv_roc_auc_mean": 0.7834
+}

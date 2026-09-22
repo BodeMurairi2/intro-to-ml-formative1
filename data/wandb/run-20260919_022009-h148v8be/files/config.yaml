@@ -1,0 +1,89 @@
+_wandb:
+    value:
+        cli_version: 0.30.0
+        e:
+            uwkkorw5996nxphaq3e7hjf4em6baeb4:
+                codePath: /home/bode-murairi/Documents/programming/ml/assignments/intro-to-ml-formative1/assignment.ipynb
+                codePathLocal: assignment.ipynb
+                cpu_count: 10
+                cpu_count_logical: 12
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "501809635328"
+                        used: "207385055232"
+                email: b.murairi@alustudent.com
+                executable: /home/bode-murairi/anaconda3/bin/python
+                git:
+                    commit: b95c1208d95141a7bded083376c7556ea3249f32
+                    remote: https://github.com/BodeMurairi2/intro-to-ml-formative1.git
+                gpu: NVIDIA GeForce RTX 2050
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 2048
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce RTX 2050
+                      uuid: GPU-78b2aa5a-31ea-1b1b-8260-ffef4c8e1549
+                host: bode-murairi-HP-ProBook-450-15-6-inch-G10-Notebook-PC
+                memory:
+                    total: "16389632000"
+                os: Linux-7.0.0-31-generic-x86_64-with-glibc2.39
+                program: /home/bode-murairi/Documents/programming/ml/assignments/intro-to-ml-formative1/assignment.ipynb
+                python: CPython 3.13.5
+                root: ./data
+                startedAt: "2026-09-19T00:20:09.308973Z"
+                writerId: uwkkorw5996nxphaq3e7hjf4em6baeb4
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 5
+                - 6
+                - 7
+                - 53
+            "2":
+                - 5
+                - 6
+                - 7
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.13.5
+            "5": 0.30.0
+            "8":
+                - 1
+                - 2
+            "10":
+                - 20
+            "12": 0.30.0
+            "13": linux-x86_64
+cat_features:
+    value:
+        - cat_region
+        - cat_channel
+        - cat_tier
+depth:
+    value: 8
+dropped_duplicates:
+    value: false
+eval_metric:
+    value: AUC
+iterations:
+    value: 3000
+l2_leaf_reg:
+    value: 3
+learning_rate:
+    value: 0.03
+model:
+    value: CatBoostClassifier
+num_impute:
+    value: none (CatBoost handles NaN)
+random_seed:
+    value: 42
+scale_pos_weight:
+    value: 2.8155802861685215
+verbose:
+    value: 0

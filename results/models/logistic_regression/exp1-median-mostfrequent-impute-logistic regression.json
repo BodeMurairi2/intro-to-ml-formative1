@@ -1,0 +1,14 @@
+{
+  "run_name": "exp1-median-mostfrequent-impute-logistic regression",
+  "model": "LogisticRegression",
+  "C": 1.0,
+  "penalty": "elasticnet",
+  "l1_ratio": 0.5,
+  "solver": "saga",
+  "max_iter": 2000,
+  "num_impute": "median",
+  "cat_impute": "most_frequent",
+  "dropped_duplicates": true,
+  "val_roc_auc": 0.6568,
+  "cv_roc_auc_mean": 0.652
+}

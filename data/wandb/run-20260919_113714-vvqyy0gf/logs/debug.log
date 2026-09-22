@@ -1,0 +1,25 @@
+2026-09-19 11:37:14,328 INFO    MainThread:9304 [wandb_setup.py:_flush():81] Current SDK version is 0.30.0
+2026-09-19 11:37:14,329 INFO    MainThread:9304 [wandb_setup.py:_flush():81] Configure stats pid to 9304
+2026-09-19 11:37:14,329 INFO    MainThread:9304 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-09-19 11:37:14,329 INFO    MainThread:9304 [wandb_init.py:setup_run_log_directory():739] Logging user logs to data/wandb/run-20260919_113714-vvqyy0gf/logs/debug.log
+2026-09-19 11:37:14,330 INFO    MainThread:9304 [wandb_init.py:setup_run_log_directory():740] Logging internal logs to data/wandb/run-20260919_113714-vvqyy0gf/logs/debug-internal.log
+2026-09-19 11:37:14,330 INFO    MainThread:9304 [wandb_init.py:init():783] calling init triggers
+2026-09-19 11:37:14,330 INFO    MainThread:9304 [wandb_init.py:init():788] wandb.init called with sweep_config: {}
+config: {'model': 'CatBoostClassifier', 'iterations': 3000, 'learning_rate': 0.03, 'depth': 10, 'l2_leaf_reg': 3, 'random_seed': 42, 'verbose': 0, 'eval_metric': 'AUC', 'scale_pos_weight': 2.8155802861685215, 'cat_features': ('cat_region', 'cat_channel', 'cat_tier'), 'num_impute': 'none (CatBoost handles NaN)', 'dropped_duplicates': False, '_wandb': {}}
+2026-09-19 11:37:14,330 INFO    MainThread:9304 [wandb_init.py:init():831] starting backend
+2026-09-19 11:37:14,330 INFO    MainThread:9304 [wandb_init.py:init():846] sending inform_init request
+2026-09-19 11:37:14,350 INFO    MainThread:9304 [wandb_init.py:init():851] backend started and connected
+2026-09-19 11:37:14,359 INFO    MainThread:9304 [wandb_run.py:_label_probe_notebook():1213] probe notebook
+2026-09-19 11:37:14,369 INFO    MainThread:9304 [wandb_init.py:init():921] updated telemetry
+2026-09-19 11:37:14,388 INFO    MainThread:9304 [wandb_init.py:init():944] communicating run to backend with 90.0 second timeout
+2026-09-19 11:37:15,935 INFO    MainThread:9304 [wandb_init.py:init():981] starting run threads in backend
+2026-09-19 11:37:16,455 INFO    MainThread:9304 [wandb_run.py:_console_start():2531] atexit reg
+2026-09-19 11:37:16,455 INFO    MainThread:9304 [wandb_run.py:_redirect():2381] redirect: wrap_raw
+2026-09-19 11:37:16,456 INFO    MainThread:9304 [wandb_run.py:_redirect():2450] Wrapping output streams.
+2026-09-19 11:37:16,456 INFO    MainThread:9304 [wandb_run.py:_redirect():2473] Redirects installed.
+2026-09-19 11:37:16,458 INFO    MainThread:9304 [wandb_init.py:init():1019] run started, returning control to user process
+2026-09-19 11:37:16,460 INFO    MainThread:9304 [wandb_run.py:_finish():2303] finishing run b-murairi-african-leadership-university/formative1-part2-BodeMurairi/vvqyy0gf
+2026-09-19 11:37:16,460 INFO    MainThread:9304 [wandb_run.py:_atexit_cleanup():2498] got exitcode: 0
+2026-09-19 11:37:16,461 INFO    MainThread:9304 [wandb_run.py:_restore():2480] restore
+2026-09-19 11:37:16,461 INFO    MainThread:9304 [wandb_run.py:_restore():2486] restore done
+2026-09-19 11:37:19,798 INFO    MainThread:9304 [wandb_run.py:_footer_sync_info():3901] logging synced files

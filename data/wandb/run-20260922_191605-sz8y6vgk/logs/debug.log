@@ -1,0 +1,7 @@
+2026-09-22 19:16:05,089 INFO    MainThread:11840 [wandb_init.py:setup_run_log_directory():739] Logging user logs to data/wandb/run-20260922_191605-sz8y6vgk/logs/debug.log
+2026-09-22 19:16:05,089 INFO    MainThread:11840 [wandb_init.py:setup_run_log_directory():740] Logging internal logs to data/wandb/run-20260922_191605-sz8y6vgk/logs/debug-internal.log
+2026-09-22 19:16:05,089 INFO    MainThread:11840 [wandb_init.py:init():783] calling init triggers
+2026-09-22 19:16:05,089 INFO    MainThread:11840 [wandb_init.py:init():788] wandb.init called with sweep_config: {}
+config: {'model': 'LogisticRegression', 'C': 1.0, 'penalty': 'elasticnet', 'l1_ratio': 0.5, 'solver': 'saga', 'max_iter': 2000, 'class_weight': 'balanced', 'features': 'poly_degree2_with_squares', 'num_impute': 'median', 'cat_impute': 'most_frequent', '_wandb': {}}
+2026-09-22 19:16:05,089 INFO    MainThread:11840 [wandb_init.py:init():831] starting backend
+2026-09-22 19:16:05,089 INFO    MainThread:11840 [wandb_init.py:init():846] sending inform_init request

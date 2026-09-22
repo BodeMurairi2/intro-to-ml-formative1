@@ -1,0 +1,18 @@
+{"time":"2026-09-19T01:47:57.007452175+02:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-09-19T01:47:57.007624333+02:00","level":"INFO","msg":"stream: starting","core version":"0.30.0"}
+{"time":"2026-09-19T01:47:57.015510629+02:00","level":"INFO","msg":"stream: created new stream","id":"j0jucvrr"}
+{"time":"2026-09-19T01:47:57.015722775+02:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-09-19T01:47:57.015790427+02:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-09-19T01:47:57.015807608+02:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-09-19T01:47:57.015779758+02:00","level":"INFO","msg":"writer: started","stream_id":"j0jucvrr"}
+{"time":"2026-09-19T01:47:58.413118343+02:00","level":"INFO","msg":"filestream: sending request","total_files":1,"events_offset":0,"events_lines":1}
+{"time":"2026-09-19T01:47:59.209381249+02:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-09-19T01:48:01.376833212+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-09-19T01:48:01.377103951+02:00","level":"INFO","msg":"filestream: sending request","total_files":3,"history_offset":0,"history_lines":1,"events_offset":1,"events_lines":1,"uploaded_len":5,"complete":true,"exit_code":0}
+{"time":"2026-09-19T01:48:01.887221301+02:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-09-19T01:48:01.893334596+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-09-19T01:48:01.905961366+02:00","level":"INFO","msg":"stream: finishing up"}
+{"time":"2026-09-19T01:48:01.90601997+02:00","level":"INFO","msg":"handler: closed"}
+{"time":"2026-09-19T01:48:01.906105205+02:00","level":"INFO","msg":"sender: closed"}
+{"time":"2026-09-19T01:48:01.90612124+02:00","level":"INFO","msg":"stream: all finished"}
+{"time":"2026-09-19T01:48:03.90636013+02:00","level":"ERROR","msg":"stream: failed to shut down analytics","error":"shutdown errors: [context deadline exceeded]"}

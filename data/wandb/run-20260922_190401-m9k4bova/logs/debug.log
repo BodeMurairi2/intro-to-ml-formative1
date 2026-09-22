@@ -1,0 +1,7 @@
+2026-09-22 19:04:01,043 INFO    MainThread:11840 [wandb_init.py:setup_run_log_directory():739] Logging user logs to data/wandb/run-20260922_190401-m9k4bova/logs/debug.log
+2026-09-22 19:04:01,043 INFO    MainThread:11840 [wandb_init.py:setup_run_log_directory():740] Logging internal logs to data/wandb/run-20260922_190401-m9k4bova/logs/debug-internal.log
+2026-09-22 19:04:01,043 INFO    MainThread:11840 [wandb_init.py:init():783] calling init triggers
+2026-09-22 19:04:01,043 INFO    MainThread:11840 [wandb_init.py:init():788] wandb.init called with sweep_config: {}
+config: {'model': 'RandomForestClassifier', 'n_estimators': 500, 'max_depth': None, 'criterion': 'entropy', 'min_samples_split': 10, 'min_samples_leaf': 5, 'max_features': 'sqrt', 'class_weight': 'balanced_subsample', 'num_impute': 'knn_k5', '_wandb': {}}
+2026-09-22 19:04:01,043 INFO    MainThread:11840 [wandb_init.py:init():831] starting backend
+2026-09-22 19:04:01,043 INFO    MainThread:11840 [wandb_init.py:init():846] sending inform_init request

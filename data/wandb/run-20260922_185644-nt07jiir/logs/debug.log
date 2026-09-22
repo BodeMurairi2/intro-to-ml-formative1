@@ -1,0 +1,8 @@
+2026-09-22 18:56:44,302 INFO    MainThread:11840 [wandb_init.py:setup_run_log_directory():739] Logging user logs to data/wandb/run-20260922_185644-nt07jiir/logs/debug.log
+2026-09-22 18:56:44,302 INFO    MainThread:11840 [wandb_init.py:setup_run_log_directory():740] Logging internal logs to data/wandb/run-20260922_185644-nt07jiir/logs/debug-internal.log
+2026-09-22 18:56:44,302 INFO    MainThread:11840 [wandb_init.py:monkeypatch_ipython():658] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7a952f239370>
+2026-09-22 18:56:44,302 INFO    MainThread:11840 [wandb_init.py:init():783] calling init triggers
+2026-09-22 18:56:44,302 INFO    MainThread:11840 [wandb_init.py:init():788] wandb.init called with sweep_config: {}
+config: {'model': 'LogisticRegression', 'features': 'pairwise_interactions', 'search': 'RandomizedSearchCV', 'clf__C': np.float64(0.011526449540315618), 'clf__class_weight': 'balanced', 'clf__l1_ratio': np.float64(0.9922115592912175), 'clf__penalty': 'l1', '_wandb': {}}
+2026-09-22 18:56:44,302 INFO    MainThread:11840 [wandb_init.py:init():831] starting backend
+2026-09-22 18:56:44,302 INFO    MainThread:11840 [wandb_init.py:init():846] sending inform_init request
